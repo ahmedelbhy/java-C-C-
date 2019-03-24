@@ -1,0 +1,13 @@
+package com.hacherRank.DS.Arrays;
+
+import java.util.Scanner;
+
+public class TwoDArray {
+
+	public static void main(String[] args) {
+		 Scanner input=new Scanner(System.in);
+		 String [] inputData=new String[6]; 
+
+	}
+
+}

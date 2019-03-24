@@ -1,0 +1,19 @@
+package com.hacherRank.Arrays;
+
+import java.util.Scanner;
+
+public class ArraysDS {
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		int size=input.nextInt();
+		String element="";
+		for(int i=0;i<size;i++) {
+			element=element.isEmpty()?input.nextInt()+"" : input.nextInt()+" "+element;
+		}
+		System.out.println(element);
+		
+
+	}
+
+}
